@@ -29,27 +29,10 @@ namespace Sets_of_Elements
                     secondGroup.Add(number);
                 }
             }
-            if(firstGroup.Count > 0)
-            {
-                foreach (var item in firstGroup)
-                {
-                    if (secondGroup.Contains(item))
-                    {
-                        Console.Write($"{item} ");
-                    }
-                }
-            }
-            else
-            {
-                foreach (var item in secondGroup)
-                {
-                    if(firstGroup.Contains(item))
-                    {
-                        Console.Write($"{item} ");
-                    }
-                }
-            }
-            
+
+            var intersection = firstGroup.Intersect(secondGroup);
+
+            Console.WriteLine(string.Join(" ", intersection));
         }
     }
 }
