@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfString", "GenericBoxOfString\GenericBoxOfString.csproj", "{72E4B6F5-9B4C-4F3F-A92C-4240ACC6B9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfInteger", "GenericBoxOfInteger\GenericBoxOfInteger.csproj", "{665F3C5C-E846-4B50-AA70-45325BF04F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E4B6F5-9B4C-4F3F-A92C-4240ACC6B9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E4B6F5-9B4C-4F3F-A92C-4240ACC6B9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E4B6F5-9B4C-4F3F-A92C-4240ACC6B9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E4B6F5-9B4C-4F3F-A92C-4240ACC6B9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665F3C5C-E846-4B50-AA70-45325BF04F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665F3C5C-E846-4B50-AA70-45325BF04F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665F3C5C-E846-4B50-AA70-45325BF04F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665F3C5C-E846-4B50-AA70-45325BF04F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D72E21FC-E026-495A-82F5-D900B6D6DC03}
+	EndGlobalSection
+EndGlobal
